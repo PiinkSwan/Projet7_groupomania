@@ -5,6 +5,7 @@ export default {
 </script>
 
 <template>
+
         <div class="register__box">
         <form>
           <p>Nom</p>

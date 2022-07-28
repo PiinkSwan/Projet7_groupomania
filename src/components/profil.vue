@@ -9,5 +9,11 @@
 </div>
 </template>
 <script>
-
+  import Banner from '../components/header.vue'
+export default {
+  name: 'Profil',
+  components:{
+      Banner,
+  },
+}
 </script>

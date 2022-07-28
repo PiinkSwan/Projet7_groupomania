@@ -1,6 +1,4 @@
 <script>
-//import SignupVue from './components/log/Signup.vue'
-//import loginVue from './components/log/login.vue'
 import Header from './components/header.vue';
 import Footer from "./components/footer.vue";
 import Navbar from "./components/navbar.vue";
@@ -35,6 +33,7 @@ html, body {
   margin:0;
   padding:0;
   height:100%;
+  font-weight: bold;
 }
 .title__center {
   text-align: center;

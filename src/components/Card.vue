@@ -1,0 +1,22 @@
+<script>
+ export default {
+  name:"Card",
+ }
+</script>
+
+<template>
+<div class="card mb-3">
+  <img src="../images/91eb50b42d451e35b3b940d56b236ccd.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  </div>
+</div>
+</template>
+
+<style>
+img.card-img-top {
+    max-height: 20rem;
+    object-fit: contain;
+}</style>

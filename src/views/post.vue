@@ -8,7 +8,7 @@
 
 <script>
 import Banner from '../components/header.vue'
-import BodyPost from '../components/post/post_body.vue'
+//import BodyPost from '../components/post/post_body.vue'
 export default {
     name: 'Post',
     components: {

@@ -1,33 +1,29 @@
 <script>
 export default {
-    name: "Wall"
+    name: 'PostForm',
+   
 }
 </script>
 
 <template>
-
-<h1>Wall</h1>
-    <div class="container-lg">
-        <div class="form-floating">
+       <div class="form-floating">
         </div>
         <div contenteditable class="form-control" placeholder="Leave a comment here" id="floatingTextarea">
         </div>
         <div class="d-flex">
             <label for="file-input" class="btn-add btn mt-1">Ajouter une image</label>
             <input id="file-input" type="file" />
-            <button class="btn mt-1 ms-auto" type="button">Publier</button>
+            <button @click="handClick" class="btn mt-1 ms-auto" type="button">Publier</button>
         </div>
-        <hr class="dropdown">
-        Hello
-    </div>
+
 </template>
 
 <style>
-#file-input {
+    #file-input {
     display: none;
 }
 .btn-add {
-    background-color:gray;
-    color: white;
+    background-color: #FFD7D7;
+    color: #4E5166;
 }
 </style>
