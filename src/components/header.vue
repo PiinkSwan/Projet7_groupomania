@@ -1,6 +1,6 @@
 <template>
-    <div class='header pt-2'>
-        <img alt="Vue logo" src="../images/icon.webp">
+    <div class='header pt-2 text-center'>
+        <img class="img__banner" alt="Vue logo" src="../images/icon.webp">
     </div>
 </template>
 
@@ -14,16 +14,12 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 h1 {
     margin: 0;
     padding:0;
 }
-.header 
-{
-    border-bottom: 3px solid #fd2d01 ;
-}
-img {
+.img__banner {
     width:30%;
 }
 </style>

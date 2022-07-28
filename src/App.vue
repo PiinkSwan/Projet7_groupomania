@@ -3,21 +3,25 @@
 //import loginVue from './components/log/login.vue'
 import Header from './components/header.vue';
 import Footer from "./components/footer.vue";
+import Navbar from "./components/navbar.vue";
 
 export default {
   name: "App",
-  components: { Header, Footer, },
+  components: { Header, Footer, Navbar },
 };
 </script>
 
 <template>
   <div id="app">
-    <Header /><router-view />
+    <navbar />
+    <router-view />
+    <Header />
     <Footer />
   </div>
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
 #app {
   min-height: 100vh;
   display: flex;
@@ -27,8 +31,13 @@ export default {
   background-repeat: no-repeat;
 }
 html, body {
+  font-family: 'Lato', sans-serif;
   margin:0;
   padding:0;
   height:100%;
+}
+.title__center {
+  text-align: center;
+  padding: 44px;
 }
 </style>

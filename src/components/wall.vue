@@ -15,8 +15,10 @@ export default {
         <div class="d-flex">
             <label for="file-input" class="btn-add btn mt-1">Ajouter une image</label>
             <input id="file-input" type="file" />
-            <button class="btn mt-1 ms-auto" type="button">Poster</button>
+            <button class="btn mt-1 ms-auto" type="button">Publier</button>
         </div>
+        <hr class="dropdown">
+        Hello
     </div>
 </template>
 
