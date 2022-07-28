@@ -1,0 +1,129 @@
+.login__header{
+    display: flex;
+    width:330px;
+    margin:auto;
+    margin-top:30px;
+}
+.login, .register {
+    width:50%;
+    font-size: 1.3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #333;
+    cursor: pointer;
+}
+.login {
+    border-radius: 10px 0 0 0;
+}
+.register {
+    border-radius: 0 10px 0 0;
+}
+.login:hover, .register:hover {
+    text-decoration: underline;
+}
+.post_text,
+.post_media {
+    font-size: 1rem;
+}
+.connexion,
+.recovery__box {
+    width: 330px;  
+    margin:auto;
+    margin-bottom:50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+}
+
+
+
+body {
+    background: #dfe9f5;
+
+}
+
+.login__box, .register__box {
+    width: 330px;  
+    height: 460px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    border: solid 1px #333;
+    border-top:none;
+
+}
+.login__box h1{
+    padding-top: 30px;
+} 
+.login__box p{
+    padding-top: 10px;
+} 
+h1 {
+    font-size: 2rem;
+    color: #07001f;
+    padding-top: 0.5rem;
+}
+p {
+    margin-bottom: 1rem;
+}
+form input{
+    width: 85%;
+    outline: none;
+    border: none;
+    background: #dfe9f5;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: inset 2px 2px 2px 0px rgba(0,0,0,0.75);
+}
+
+button {
+    font-size: 1.1rem;
+    margin: 1rem;
+    padding: 8px 0;
+    outline: none;
+    border: none;
+    background:#fd2d01;
+    border:solid 2px #fd2d01;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+}
+button:hover {
+    background: #FFF;
+    color: #fd2d01;
+    box-shadow: 2px 2px 2px 0px #fd2d01;
+    transition: 0.8s;
+}
+button a {
+    color: #FFF;
+}
+button:hover a {
+    color: #fd2d01;
+    transition: 0.8s;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.bar {
+    display: block;
+    margin: auto;
+    background: #fd2d01;
+    height:1.5px;
+    width:80%;
+    margin-bottom:20px;
+}
+.recover{
+    font-size: 0.8rem;
+}
+.recover a{
+    font-size: 0.9rem;
+}
+.recover a:hover {
+    color: #fd2d01;
+}
