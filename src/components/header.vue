@@ -2,6 +2,7 @@
     <div class='header pt-2 text-center'>
         <img class="img__banner" alt="Vue logo" src="../images/icon.webp">
     </div>
+
 </template>
 
 

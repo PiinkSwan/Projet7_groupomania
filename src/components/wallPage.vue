@@ -2,7 +2,7 @@
 import PostForm from './post/PostForm.vue'
 import Card from'./card.vue'
 export default {
-    name: "Wall",
+    name: "WallPage",
     components: { PostForm, Card },
     
 }

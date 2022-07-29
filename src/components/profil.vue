@@ -9,11 +9,28 @@
 </div>
 </template>
 <script>
-  import Banner from '../components/header.vue'
+import axios from 'axios';
+import Banner from '../components/header.vue'
 export default {
   name: 'Profil',
   components:{
       Banner,
   },
+  data() {
+    return {
+      result : [],   
+    }
+    },
+        methods: {
+        loadProfil(){
+            axios.get('http://localhost:3000/api/user/:id') 
+                .then(res => this.profil = res.data.profil)
+                .catch(error => this.profil = [error,{ title: "Erreur de chargement"}])
+            }
+        },
+      mounted: function () {
+      this.loadProfil()
+    },
 }
 </script>
+<style></style>

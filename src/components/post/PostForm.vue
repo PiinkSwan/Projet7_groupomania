@@ -1,7 +1,12 @@
 <script>
 export default {
     name: 'PostForm',
-   
+    //methods: {
+        //handClicks () {
+            //const {VITE_SERVER_ADRESS, VITE_SERVER_PORT} = import.meta.en
+            //const url =
+        
+    //}
 }
 </script>
 

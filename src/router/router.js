@@ -14,8 +14,13 @@ const routes = [
 ]
 const router = createRouter({history: createWebHistory(), routes})
 
-router.beforeEach((to, from, next) => { 
+router.beforeEach((to, from) => {
 console.log("from:", from)
 console.log("to:", to)
+
+if (to.path !== "/login") {
+    router.push("login")
+}
+
 })
-export  {router};
+export { router }

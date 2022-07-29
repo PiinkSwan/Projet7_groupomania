@@ -5,24 +5,26 @@ export default {
 </script>
 
 <template>
+      <img class="logo" src="../../images/groupomania.jpg" alt="">
+      <h1 class="groupo">Groupomania</h1>
+      <p class="welcome">Bienvenue sur votre réseau social d'entreprise </p>
 
         <div class="register__box">
         <form>
           <p>Nom</p>
-            <input type="text" v-model="pseudo" placeholder="">
+            <input type="text" v-model="pseudo " placeholder="Votre nom">
             <p>Email</p>
-            <input type="text" v-model="email" placeholder="">
+            <input type="text" v-model="email" placeholder="Votre email">
             <p>Mot de passe</p>
-            <input type="password" v-model="password" placeholder="">
+            <input type="password" v-model="password" placeholder="Votre mot de passe">
         </form>
-        <router-link to='/post'><button class="btn-signup">S'incrire</button></router-link>
+        <router-link to='/wallPage'><button class="btn-signup">S'incrire</button></router-link>
 </div>
 </template>
 
 <style>
 .register__box {
   background-color: #FFD7D7;
-  border-radius: 10px;
 
 }
  form {
@@ -33,10 +35,9 @@ export default {
     color: #4E5166;
  }
  input {
-  border-radius: 20px;
   padding: 8px;
-  width: 40%;
-  border-bottom: solid;
+  width: 60%;
+  border-bottom: solid #4E5166;
 }
 
  .btn-signup {

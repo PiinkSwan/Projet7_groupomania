@@ -7,7 +7,6 @@
       <img class="banner-img" src="../images/groupomania.jpg" alt="">
     </a>
     <router-link to='/home'><button class="btn-home">Accueil</button></router-link>
-    <router-link to="/signup"><button class="btn-home">Inscription</button></router-link>
     <router-link to="/login"><button class="btn-home">Connexion</button></router-link>
 
   </div>
