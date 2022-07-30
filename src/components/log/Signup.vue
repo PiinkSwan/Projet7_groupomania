@@ -1,4 +1,5 @@
 <script>
+
 export default {
   name: 'Signup',
 }
@@ -18,7 +19,7 @@ export default {
             <p>Mot de passe</p>
             <input type="password" v-model="password" placeholder="Votre mot de passe">
         </form>
-        <router-link to='/wallPage'><button class="btn-signup">S'incrire</button></router-link>
+        <router-link to='/home'><button class="btn-signup">S'incrire</button></router-link>
 </div>
 </template>
 

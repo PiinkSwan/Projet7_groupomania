@@ -3,7 +3,10 @@ import PostForm from './post/PostForm.vue'
 import Card from'./card.vue'
 export default {
     name: "WallPage",
-    components: { PostForm, Card },
+    components: {
+        Card,
+        PostForm
+    },
     
 }
 </script>
@@ -20,5 +23,4 @@ export default {
 </template>
 
 <style>
-
 </style>

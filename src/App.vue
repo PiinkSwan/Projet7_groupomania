@@ -1,11 +1,11 @@
 <script>
-import Header from './components/header.vue';
-import Footer from "./components/footer.vue";
+//import Header from './components/header.vue';
+//import Footer from "./components/footer.vue";
 import Navbar from "./components/navbar.vue";
 import Login from './components/log/login.vue';
 export default {
   name: "App",
-  components: { Header, Footer, Navbar, Login },
+  components: { Navbar, Login },
 };
 </script>
 

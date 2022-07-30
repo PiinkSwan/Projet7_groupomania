@@ -9,7 +9,7 @@
              Mot de passe 
             <input type="password" v-model="password" placeholder="Votre Mot de Passe">
           </form>
-          <router-link to='/wallPage'><button class="px-2 rounded-3" >Connexion</button></router-link>
+          <router-link to='/home'><button class="px-2 rounded-3">Connexion</button></router-link>
         </div>
         <div id="router_link">
             <router-link id="btn_signup" to="/signup">S'inscrire</router-link>
@@ -20,13 +20,7 @@
 
 <script>
 export default {
-  name: 'login',
-  data() {
-    return {
-      email : '',   
-      password : ''
-    }
-  },
+  name: 'Login',
 }
 </script>
 
